@@ -1,0 +1,2 @@
+global execution context: main()
+event loop ,web apis/node apis and message queue it’s a part of browser’s JavaScript runtime environment or Nodejs JavaScript runtime environment (in case of Nodejs)

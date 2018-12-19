@@ -1,0 +1,11 @@
+web server is a stateless protocol:it will not remember the user login or user info
+web server will send token to the client on successfull login
+server will remember the token because it write to the db
+the token is stored in localstorage 
+client:
+upon making request to the server the token stored in localstorage is used to send it to the server
+server:
+server will check the  received token in db for specified user
+
+instance method: when we invoke method on object then it is instance method ,generateToken()
+static :when we invoke method on type  or class or model static method, findByCredentials()
